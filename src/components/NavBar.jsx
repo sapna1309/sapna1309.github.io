@@ -29,10 +29,10 @@ const NavBar = () => {
   ];
 
   return (
-    <div className=" max-w-screen mx-auto flex justify-evenly items-center w-full h-20 px-4 py-1 text-white bg-black fixed z-20">
+    <div className=" max-w-screen mx-auto flex justify-evenly items-center md:w-full h-20 px-4 py-1 text-white bg-black fixed z-20">
       <div >
         <Link to="home"  smooth duration={1000}>
-        <h1 className="text-5xl font-signature ml-2 mr-4 capitalize">Sapna Sharma</h1>
+        <h1 className="text-5xl font-signature ml-2 capitalize">Sapna Sharma</h1>
         </Link>
       </div>
       <ul className="hidden md:flex">

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.792e93ec.css",
-    "main.js": "./static/js/main.48a424e2.js",
+    "main.css": "./static/css/main.3bf9fbe4.css",
+    "main.js": "./static/js/main.a923ed16.js",
     "static/media/homePage2.png": "./static/media/homePage2.df9ac8b6a7041b9d82d0.png",
     "static/media/likePage.png": "./static/media/likePage.9ad969acb61e33f6f541.png",
     "static/media/downloadImage.png": "./static/media/downloadImage.9637aed232327c9f1344.png",
@@ -16,15 +16,11 @@
     "static/media/productDetailPage.png": "./static/media/productDetailPage.8e007f5fe21fd221ede0.png",
     "static/media/addCartPop-up.png": "./static/media/addCartPop-up.1fec5893b87631f413c8.png",
     "static/media/redux.png": "./static/media/redux.1b4bb5fceb01b19da59d.png",
-    "static/media/f2.JPG": "./static/media/f2.5735c4da9b74bd0026a8.JPG",
     "static/media/chakra.png": "./static/media/chakra.e4cb472ccaabf22affba.png",
-    "static/media/f1.JPG": "./static/media/f1.6c423b387f44074f013d.JPG",
-    "static/media/f3.JPG": "./static/media/f3.1bec2f538b894cc3062b.JPG",
     "static/media/checkoutPage.png": "./static/media/checkoutPage.a709e7e6782c4b14b5e7.png",
     "static/media/footer.png": "./static/media/footer.cbe9c1e8b6e749546d4c.png",
     "static/media/cartPage.png": "./static/media/cartPage.9549488848a2c19f9905.png",
     "static/media/finalPage.png": "./static/media/finalPage.13d78464c8313111b116.png",
-    "static/media/f4.JPG": "./static/media/f4.e52904d480c2149a5023.JPG",
     "static/media/login.png": "./static/media/login.5db31e78e87746d20371.png",
     "static/media/react.png": "./static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "./static/media/node.952a9ea986dcfa5229ad.png",
@@ -41,11 +37,11 @@
     "static/media/javascript.png": "./static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/illustratore.png": "./static/media/illustratore.88205be4baf5c712db8e.png",
     "index.html": "./index.html",
-    "main.792e93ec.css.map": "./static/css/main.792e93ec.css.map",
-    "main.48a424e2.js.map": "./static/js/main.48a424e2.js.map"
+    "main.3bf9fbe4.css.map": "./static/css/main.3bf9fbe4.css.map",
+    "main.a923ed16.js.map": "./static/js/main.a923ed16.js.map"
   },
   "entrypoints": [
-    "static/css/main.792e93ec.css",
-    "static/js/main.48a424e2.js"
+    "static/css/main.3bf9fbe4.css",
+    "static/js/main.a923ed16.js"
   ]
 }

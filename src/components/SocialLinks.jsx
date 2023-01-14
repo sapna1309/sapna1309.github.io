@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+//import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
@@ -24,17 +24,17 @@ const SocialLinks = () => {
       ),
       href: "https://github.com/sapna1309",
     },
+    // {
+    //   id: 3,
+    //   child: (
+    //     <>
+    //       Mail <HiOutlineMail size={30} />
+    //     </>
+    //   ),
+    //   href: "https://mail.google.com/",
+    // },
     {
       id: 3,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "https://mail.google.com/",
-    },
-    {
-      id: 4,
       child: (
         <>
          Download Resume <BsFillPersonLinesFill size={30} />
@@ -53,7 +53,7 @@ const SocialLinks = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gradient-to-r from-cyan-400 to-blue-500" +
               " " +
               style
             }

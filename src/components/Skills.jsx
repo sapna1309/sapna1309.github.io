@@ -27,7 +27,6 @@ import indesign from '../assets/indesign.png';
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from "react";
-//import GithubCalendar from "./GithubCalendar";
 
 const Skills = () => {
   const frontend = [
@@ -222,9 +221,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-      {/* <div className="justify-center w-full h-full " >
-      <GithubCalendar/>
-      </div> */}
+     
     </div>
   );
 };

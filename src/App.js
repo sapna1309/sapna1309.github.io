@@ -1,9 +1,9 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import GithubData from "./components/GithubDatas";
 import Home from "./components/Home";
 import LoadingPage from "./components/LoadingPage";
 import NavBar from "./components/NavBar";
-//import NewNavBar from "./components/newnav";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import SocialLinks from "./components/SocialLinks";
@@ -17,17 +17,17 @@ function App() {
     ready!==true?<LoadingPage/>:
     <div >
     <NavBar />
-    {/* <NewNavBar/> */}
     <Home />
     <About />
     <Skills />
     <Projects />
+    <GithubData/>
     <Contact />
     <SocialLinks />
     </div>
   }
   </div>
-    );
+  );
 }
 
 export default App;

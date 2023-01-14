@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { FcPhone } from "react-icons/fc";
-//import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 import AOS from "aos";
@@ -37,7 +37,7 @@ const Contact = () => {
     <>
       <div
         name="contact"
-        className="w-full  bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+        className="w-full  bg-gradient-to-b from-black to-gray-800 p-4 text-white pt-10"
       >
         {/* {show && <Toast/> } */}
         <div className="max-w-screen-lg mx-auto" data-aos="fade-right">
@@ -58,7 +58,7 @@ const Contact = () => {
               </div>
               <div>
                 <h1 className="text-xl font-bold ">Phone :</h1>
-                <h1 className="text-xl text-gray-500 ">+91 7827476219</h1>
+                <h1 className="text-xl text-gray-400 ">+91 7827476219</h1>
               </div>
             </div>
             <div
@@ -74,7 +74,7 @@ const Contact = () => {
               </div>
               <div>
                 <h1 className="text-xl font-bold">Email :</h1>
-                <h1 className="text-xl text-gray-500">
+                <h1 className="text-xl text-gray-400">
                   Sapna.sharma220516@gmail.com
                 </h1>
               </div>
@@ -83,21 +83,18 @@ const Contact = () => {
               className="w-full flex gap-3 p-6 rounded-xl shadow-lg shadow-red-500"
               data-aos="fade-up-right"
             >
-              {/* <div>
-                <a
-                  href=""
-                  target="_blank"
-                >
+              <div>
+              
                   <FaMapMarkerAlt
                     className="hover:animate-bounce"
                     size="32px"
                     color="red"
                   />
-                </a>
-              </div> */}
+             
+              </div>
               <div>
                 <h1 className="text-xl font-bold">Address :</h1>
-                <h1 className="text-xl  text-gray-500">
+                <h1 className="text-xl  text-gray-400">
                   New Delhi{" "}
                 </h1>
               </div>

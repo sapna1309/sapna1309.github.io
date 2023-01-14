@@ -19,7 +19,7 @@ const Home = () => {
           <h2 className="text-3xl sm:text-5xl font-bold text-white">
            Hi, I'm  <br /> <span className=" text-blue-400 animate-none md:animate-pulse z-0 " >Sapna Sharma  </span><br /> Full Stack Web Developer
           </h2>
-          <p className="text-gray-500 text-xl py-4 font-medium max-w-screen-sm">
+          <p className="text-gray-400 text-xl py-4 font-medium max-w-screen-sm">
          I am an enthusiastic and creative Full-Stack Web Developer with appropriate skills who's always willing to learn and work across technology and domains.
           </p>
 

@@ -36,17 +36,17 @@ const About = () => {
     <div className='px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-2 lg:py-4 lg:max-w-screen-lg '>
       <img className="rounded-lg shadow-xl sm:mt-3 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden" src={benchwork} alt="logo"  data-aos="fade-up" />
         <div>
-      <p className="mt-6 md:mt-2 text-2xl  text-gray-600 " data-aos="fade-down">
+      <p className="mt-6 md:mt-2 text-2xl  text-gray-400 " data-aos="fade-down">
       I am a Result-Oriented Full Stack Web Developer
                 from Masai School with appropriate skills who's passionate about developing user-friendly web applications using MERN Stack.
        
         </p>
 
-        <p className="mt-6 text-2xl  text-gray-600 " data-aos="fade-left">
+        <p className="mt-6 text-2xl  text-gray-400 " data-aos="fade-left">
         I enjoy developing websites and a keen interest in solving problems and coming up with effective solutions.
         </p>
       
-        <p className="mt-6 text-2xl  text-gray-600 " data-aos="fade-up">
+        <p className="mt-6 text-2xl  text-gray-400 " data-aos="fade-up">
         Fast Forwarding to today, I built a number of web applications
                 and 3 major projects. Learned a great deal about teamwork,
                 leadership, and communication. After months of rigorous

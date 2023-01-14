@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/manoj-attri-b6b737228/",
+      href: "https://www.linkedin.com/in/sapna-sharma-4a1136231/",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/manojattri181",
+      href: "https://github.com/sapna1309",
     },
     {
       id: 3,
@@ -37,10 +37,10 @@ const SocialLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+         Download Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/Manoj_Attri_Resume.pdf",
+      href: "/Sapna-Sharma-Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },

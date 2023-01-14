@@ -8,31 +8,31 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "Home",
     },
     {
       id: 2,
-      link: "about",
+      link: "About",
     },
     {
       id: 3,
-      link: "projects",
+      link: "project",
     },
     {
       id: 4,
-      link: "skills",
+      link: "skill",
     },
     {
       id: 5,
-      link: "contact us",
+      link: "contact",
     },
   ];
 
   return (
     <div className=" max-w-screen mx-auto flex justify-evenly items-center w-full h-20 px-4 py-1 text-white bg-black fixed z-20">
-      <div>
+      <div >
         <Link to="home"  smooth duration={1000}>
-        <h1 className="text-5xl font-signature ml-2 capitalize">Manoj Attri</h1>
+        <h1 className="text-5xl font-signature ml-2 mr-4 capitalize">Sapna Sharma</h1>
         </Link>
       </div>
       <ul className="hidden md:flex">
@@ -50,7 +50,7 @@ const NavBar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-10 z-10 text-gray-500 md:hidden"
+        className="cursor-pointer pr-10 z-10  text-gray-500 md:hidden"
       >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>

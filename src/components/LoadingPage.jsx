@@ -12,7 +12,7 @@ const LoadingPage = () => {
       <div className='max-w-screen-lg flex flex-col items-center justify-center m-auto pt-32 md:pt-[5%] '>
         <img src={loadingGif2} className="w-8/12 md:w-6/12" alt=""  data-aos="zoom-in-up" />
         <div className='m-auto mt-5' data-aos="zoom-in-down">
-        <h1 className="text-5xl text-white font-signature ml-2 capitalize">Manoj Attri</h1>
+        <h1 className="text-5xl text-white font-signature ml-2 capitalize">Sapna Sharma</h1>
         </div>
       </div>
     </div>

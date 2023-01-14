@@ -10,7 +10,7 @@ import SocialLinks from "./components/SocialLinks";
 import useReady from "./components/useReady";
 
 function App() {
-  const {ready} = useReady(1500);
+  const {ready} = useReady(2000);
   return (
     <div>
   {

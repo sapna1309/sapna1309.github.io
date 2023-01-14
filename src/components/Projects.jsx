@@ -140,7 +140,7 @@ const Projects = () => {
     }
   ]
  
-  let style_md = "mt-6 rounded-lg duration-200  h-52   md:h-60  sm:max-w-screen-lg sm:object-cover object-center lg:hidden absolute inset-0 w-full  hover:scale-110  -mx-3 h-full object-contain  duration-700 hover:cursor-pointer ";
+  let style_md = "mt-6 rounded-lg duration-200  h-52   md:h-60  sm:max-w-screen-lg sm:object-cover object-center lg:hidden ";
   return (
     <div
       name="projects"
@@ -155,13 +155,13 @@ const Projects = () => {
         <div className="max-w-screen-lg  mx-auto px-2 shadow-xl shadow-gray-600 mt-0 md:mt-10  ">
         <div className="max-w-screen-lg mx-auto grid lg:grid-cols-2  "> 
         <div className='px-10 py-12 max-w-md mx-auto sm:max-w-xl lg:px-10 lg:py-6 lg:max-w-full'>
-          <div className="block lg:hidden">
-        {/* <ImageSlider  data={TvachaStore} imgStyle= {style_md} data-aos="fade-up"/> */}
+          <div className="block lg:hidden"  data-aos="fade-up">
+        <ImageSlider  data={Unsplash} imgStyle= {style_md} />
           </div>
           <h1 className="mt-6 text-xl text-blue-500 font-bold sm:mt-8  sm:text-3xl lg:text-2xl" data-aos="fade-right" >Unsplash Clone
             </h1>
             <p className="w-full  mt-2 text-gray-600 sm:mt-2 sm:text-xl"  data-aos="fade-right">
-            Expedia is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services.
+            Unsplash is a website dedicated to proprietary stock photography. It provides high resolution images.
             </p>
             <div className='flex justify-center items-center gap-x-2 mt-5' data-aos="zoom-out">
             <div><SiHtml5 size="32px" color="#e34c26" className="hover:animate-bounce hover:cursor-pointer"/></div>
@@ -182,11 +182,10 @@ const Projects = () => {
             </div>
             </div>
         </div>
-        {/* <ImageSlider  data={Unsplash} imgStyle= {style_md} /> */}
-        {/* <ProjectImageSlider data={Unsplash} myStyle={style_md}/> */}
+       
         <div className="hidden relative lg:block " data-aos="fade-left" >
         <a href="https://miniature-skin-4850.vercel.app/" target={"_blank"}>
-      <img className="absolute inset-0 w-full   hover:scale-110  -mx-3 h-full object-contain  duration-700 hover:cursor-pointer " src={HomePageU} alt="logo" />
+      <img className="absolute inset-0 w-full   hover:scale-110  -mx-3 h-full object-contain  duration-700 hover:cursor-pointer " src={HomePageU} alt="unsplash-homepage" />
         </a>
         </div>
       </div>
@@ -198,12 +197,12 @@ const Projects = () => {
         <div className="max-w-screen-lg mx-auto grid lg:grid-cols-2  "> 
         <div className='px-10 py-12 max-w-md mx-auto sm:max-w-xl lg:px-10 lg:py-6 lg:max-w-full'>
           <div className="block lg:hidden">
-          {/* <ImageSlider  data={TvachaStore} imgStyle= {style_md} data-aos="fade-up"/> */}
+          <ImageSlider  data={TvachaStore} imgStyle= {style_md} data-aos="fade-up"/>
           </div>
-          <h1 className="mt-6 text-xl text-blue-500 font-bold sm:mt-8  sm:text-3xl lg:text-2xl" data-aos="fade-right">Tvacha (SkinStore-Clone) 
+          <h1 className="mt-6 text-xl text-blue-500 font-bold sm:mt-8  sm:text-3xl lg:text-2xl" data-aos="fade-right">TvachaStore (SkinStore-Clone) 
             </h1>
             <p className="w-full  mt-2 text-gray-600 sm:mt-2 sm:text-xl" data-aos="fade-right" >
-            SkinStore offers premium beauty products like lipstick, Eyeliners, and many more products with the latest in innovative clinical skincare and luxury spa products.
+            SkinStore.com is an e-commerce site for premium beauty products across skin, makeup and hair.
             </p>
             <div className='flex justify-center items-center gap-x-2 mt-5'  data-aos="zoom-out">
             <div><SiCss3 size="32px" color="#264de4" className="hover:animate-bounce hover:cursor-pointer"/></div>
@@ -228,7 +227,7 @@ const Projects = () => {
 
       <div className="hidden relative lg:block " data-aos="fade-left" >
         <a href="https://miniature-skin-4850.vercel.app/" target={"_blank"}>
-      <img className="absolute inset-0 w-full   hover:scale-110  -mx-3 h-full object-contain  duration-700 hover:cursor-pointer " src={HomePageT} alt="logo" />
+      <img className="absolute inset-0 w-full   hover:scale-110  -mx-3 h-full object-contain  duration-700 hover:cursor-pointer " src={HomePageT} alt="TvachaStore-homepage" />
         </a>
         </div>
       </div>
@@ -240,12 +239,12 @@ const Projects = () => {
         <div className="max-w-screen-lg mx-auto grid lg:grid-cols-2  "> 
         <div className='px-10 py-12 max-w-md mx-auto sm:max-w-xl lg:px-10 lg:py-6 lg:max-w-full'>
           <div className="block lg:hidden">
-          {/* <ImageSlider  data={BookIt} imgStyle= {style_md} data-aos="fade-up"/> */}
+          <ImageSlider  data={BookIt} imgStyle= {style_md} data-aos="fade-up"/>
           </div>
           <h1 className="mt-6 text-xl text-blue-500 font-bold sm:mt-8  sm:text-3xl lg:text-2xl" data-aos="fade-right">BookIt (Booking- Clone)
             </h1>
             <p className="w-full  mt-2 text-gray-600 sm:mt-2 sm:text-xl"  data-aos="fade-right">
-            FitMeal is Food-Delivery Services based website used by wide range of customers.The intention was to introduce the concept of healthy eating in Hyderabad.
+            Booking.com is a Dutch online travel agency for lodging reservations & other travel products, and a subsidiary of Booking Holding.
             </p>
             <div className='flex justify-center items-center gap-x-2 mt-5' data-aos="zoom-out">
             <div><SiJavascript size="32px" color="yellow" className="hover:animate-bounce hover:cursor-pointer"/></div>
@@ -268,7 +267,7 @@ const Projects = () => {
 
       <div className="hidden relative lg:block " data-aos="fade-left" >
       <a href="https://fit-meal.netlify.app/" target={"_blank"}>
-      <img className="absolute inset-0 w-full   hover:scale-110  -mx-3 h-full object-contain  duration-700 hover:cursor-pointer " src={f1} alt="logo" />
+      <img className="absolute inset-0 w-full   hover:scale-110  -mx-3 h-full object-contain  duration-700 hover:cursor-pointer " src={f1} alt="Bookit-homepage" />
       </a>
         </div>
       </div>

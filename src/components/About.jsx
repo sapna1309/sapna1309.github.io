@@ -23,7 +23,7 @@ const About = () => {
           </div>
       <div className="max-w-screen-lg mx-auto p-2">
           <p className="text-4xl  capitalize font-bold inline border-b-4 border-gray-500" data-aos="fade-up" >
-            About
+            About me
           </p>
         </div>
       
@@ -37,7 +37,9 @@ const About = () => {
       <img className="rounded-lg shadow-xl sm:mt-3 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden" src={benchwork} alt="logo"  data-aos="fade-up" />
         <div>
       <p className="mt-6 md:mt-2 text-2xl  text-gray-600 " data-aos="fade-down">
-        I am Result-oriented full-stack web developer, passionate about developing user-friendly web applications using MERN Stack.
+      I am a Result-Oriented Full Stack Web Developer
+                from Masai School with appropriate skills who's passionate about developing user-friendly web applications using MERN Stack.
+       
         </p>
 
         <p className="mt-6 text-2xl  text-gray-600 " data-aos="fade-left">
@@ -45,7 +47,11 @@ const About = () => {
         </p>
       
         <p className="mt-6 text-2xl  text-gray-600 " data-aos="fade-up">
-        Eager to be a part of a team which gives me ability to learn and grow.
+        Fast Forwarding to today, I built a number of web applications
+                and 3 major projects. Learned a great deal about teamwork,
+                leadership, and communication. After months of rigorous
+                training, here I am looking for an opportunity as a Full Stack
+                Web Developer.
         </p>
         </div>
     </div>

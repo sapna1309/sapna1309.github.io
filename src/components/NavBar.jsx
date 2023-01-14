@@ -8,19 +8,19 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "Home",
+      link: "home",
     },
     {
       id: 2,
-      link: "About",
+      link: "about",
     },
     {
       id: 3,
-      link: "project",
+      link: "projects",
     },
     {
       id: 4,
-      link: "skill",
+      link: "skills",
     },
     {
       id: 5,
@@ -29,10 +29,10 @@ const NavBar = () => {
   ];
 
   return (
-    <div className=" max-w-screen mx-auto flex justify-evenly items-center w-full h-20 px-2 py-1 text-white bg-black fixed z-20">
+    <div className=" max-w-screen mx-auto flex justify-evenly items-center w-full h-20 px-4 py-1 text-white bg-black fixed z-20">
       <div >
         <Link to="home"  smooth duration={1000}>
-        <h1 className="text-5xl font-signature  capitalize">Sapna Sharma</h1>
+        <h1 className="text-5xl font-signature  capitalize  cursor-pointer">Sapna Sharma</h1>
         </Link>
       </div>
       <ul className="hidden md:flex">

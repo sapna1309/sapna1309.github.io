@@ -1,5 +1,4 @@
 import React from 'react'
-import loadingGif2 from "../assets/loading.gif"
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from "react";

@@ -36,7 +36,7 @@ const Contact = () => {
   return (
     <>
       <div
-        name="contact us"
+        name="contact"
         className="w-full  bg-gradient-to-b from-black to-gray-800 p-4 text-white"
       >
         {/* {show && <Toast/> } */}

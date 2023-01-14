@@ -1,32 +1,41 @@
 import React from "react";
-
+//frontend
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import typescript from "../assets/typescript.png";
-import github from "../assets/github.png";
-//import tailwind from "../assets/tailwind.png";
+import tailwind from "../assets/tailwind.png";
 import redux from "../assets/redux.png";
 import jest from "../assets/jest.png";
-//import postman from "../assets/postman.png";
+import chakra from "../assets/chakra.png";
+import nextjs from '../assets/nextjs.png';
+
+//backend
 import node from "../assets/node.png";
 import mongodb from "../assets/mongodb.png";
 import express from "../assets/express.png";
+
+//other tools
 import npm from "../assets/npm.png";
-import chakra from "../assets/chakra.png";
+import github from "../assets/github.png";
+import photoshop from '../assets/photoshop.webp';
+import illustratore from '../assets/illustratore.png';
+import indesign from '../assets/indesign.png';
+
 
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from "react";
+//import GithubCalendar from "./GithubCalendar";
 
 const Skills = () => {
-  const techs = [
+  const frontend = [
     {
       id: 1,
       src: html,
       title: "HTML",
-      style: "shadow-orange-500",
+      style: "shadow-orange-400",
     },
     {
       id: 2,
@@ -52,12 +61,12 @@ const Skills = () => {
       title: "Redux",
       style: "shadow-purple-600",
     },
-    // {
-    //   id: 6,
-    //   src: tailwind,
-    //   title: "Tailwind",
-    //   style: "shadow-sky-400",
-    // },
+    {
+      id: 6,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-400",
+    },
     {
       id: 6,
       src: chakra,
@@ -76,46 +85,72 @@ const Skills = () => {
       id: 8,
       src: jest,
       title: "Jest",
-      style: "shadow-orange-400",
+      style: "shadow-orange-500",
     },
     {
       id: 9,
-      src: node,
-      title: "NodeJS",
-      style: "shadow-green-400",
-    },
-    {
-      id: 10,
-      src: express,
-      title: "Express",
+      src: nextjs,
+      title: "Next JS",
       style: "shadow-gray-400",
+    }
+    
+  ];
+ 
+  const backend = [
+    {
+      id: 1,
+      src: node,
+      title: "Node JS",
+      style: "shadow-green-300",
     },
     {
-      id: 11,
+      id: 2,
+      src: express,
+      title: "Express JS",
+      style: "shadow-gray-500",
+    },
+    {
+      id: 3,
       src: mongodb,
-      title: "Mongodb",
-      style: "shadow-green-400",
-    },
-   
+      title: "Mongo DB",
+      style: "shadow-green-500",
+    }
+  ];
+
+  const tools = [
     {
-      id: 12,
+      id: 1,
+      src: npm,
+      title: "NPM",
+      style: "shadow-red-500",
+    },
+    {
+      id: 2,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
-    // {
-    //   id: 14,
-    //   src: postman,
-    //   title: "PostMan",
-    //   style: "shadow-orange-400",
-    // },
     {
-      id: 13,
-      src: npm,
-      title: "NPM",
-      style: "shadow-red-400",
+      id: 3,
+      src: illustratore,
+      title: "Illustrator",
+      style: "shadow-orange-500",
     },
-  ];
+    {
+      id: 4,
+      src: photoshop,
+      title: "Photoshop",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 5,
+      src: indesign,
+      title: "InDesign",
+      style: "shadow-pink-500",
+    }
+  ]
+ 
+
   useEffect(()=>{
     AOS.init({delay:200});
 },[])
@@ -131,9 +166,52 @@ const Skills = () => {
             Skills
           </p>
         </div>
-
+        <div className="flex justify-center mt-20">
+        <p className="text-4xl font-semi-bold border-b-2 border-blue-500 p-2 inline " data-aos="fade-right">
+            Frontend
+          </p>
+        </div>
         <div className="w-full grid grid-cols-2 mt-8 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0"  >
-          {techs.map(({ id, src, title, style }) => (
+      
+          {frontend.map(({ id, src, title, style }) => (
+            <div
+              key={id}
+              className={`shadow-lg  duration-300 py-2 rounded-lg  ${style} hover:scale-110` } data-aos="fade-up" 
+            >
+              <img src={src} alt="" className="w-20 mx-auto" />
+              <p className="mt-4">{title}</p>
+            </div>
+          ))}
+        </div>
+
+     {/* backend */}
+        <div className="flex justify-center mt-10">
+        <p className="text-4xl font-semi-bold border-b-2 border-blue-500 p-2 inline " data-aos="fade-right">
+            Backend
+          </p>
+        </div>
+        <div className="w-full grid grid-cols-2 mt-8 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0"  >
+      
+          {backend.map(({ id, src, title, style }) => (
+            <div
+              key={id}
+              className={`shadow-lg  duration-300 py-2 rounded-lg  ${style} hover:scale-110` } data-aos="fade-up" 
+            >
+              <img src={src} alt="" className="w-20 mx-auto" />
+              <p className="mt-4">{title}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* otherTools */}
+        <div className="flex justify-center mt-10">
+        <p className="text-4xl font-semi-bold border-b-2 border-blue-500 p-2 inline " data-aos="fade-right">
+            Other Tools
+          </p>
+        </div>
+        <div className="w-full grid grid-cols-2 mt-8 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0"  >
+      
+          {tools.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-lg  duration-300 py-2 rounded-lg  ${style} hover:scale-110` } data-aos="fade-up" 
@@ -144,6 +222,9 @@ const Skills = () => {
           ))}
         </div>
       </div>
+      {/* <div className="justify-center w-full h-full " >
+      <GithubCalendar/>
+      </div> */}
     </div>
   );
 };

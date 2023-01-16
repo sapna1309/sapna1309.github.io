@@ -36,7 +36,7 @@ export default function ProjectImageSlider({data,imgStyle}) {
         height={"350px"}
         width={"100%"}
         m={"auto"}
-        overflow={"hidden"}
+      
         
       >
         {/* CSS files for react-slick */}
@@ -58,14 +58,14 @@ export default function ProjectImageSlider({data,imgStyle}) {
           colorScheme="blue"
           position="absolute"
           left={0}
-          top={130}
+          top={128}
           borderRadius={20}
           transform={"translate(0%, -50%)"}
           zIndex={1}
           onClick={() => slider?.slickPrev()}
       
         >
-          <BiLeftArrowAlt size="40px" />
+          <BiLeftArrowAlt size="35px" />
         </IconButton>
         {/* Right Icon */}
          <IconButton
@@ -74,19 +74,21 @@ export default function ProjectImageSlider({data,imgStyle}) {
           position="absolute"
           colorScheme="blue"
           right={0}
-          top={130}
+          top={128}
           borderRadius={20}
           transform={"translate(0%, -50%)"}
           zIndex={1}
           onClick={() => slider?.slickNext()}
         >
-          <BiRightArrowAlt size="40px" />
+          <BiRightArrowAlt size="35px" />
         </IconButton> 
         {/* Slider */}
         <Slider {...settings} ref={(slider) => setSlider(slider)}>
           {data.map((card, index) => (
               <div className="hidden relative lg:block " data-aos="fade-left" key={index} >
-       <img
+                
+       <img 
+           className={imgStyle}
             src={card.src}
             alt={index}
             />

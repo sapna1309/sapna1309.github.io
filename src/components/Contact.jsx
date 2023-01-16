@@ -50,7 +50,7 @@ const Contact = () => {
           {/* Left side */}
           <div className="flex flex-col justify-center gap-y-14 mt-0 md:-mt-20">
             <div
-              className="w-full flex gap-3 p-6 rounded-xl  shadow-emerald-600 shadow-lg "
+              className="w-full flex gap-3 p-6 rounded-xl  shadow-emerald-600 shadow-md "
               data-aos="fade-up-right"
             >
               <div>
@@ -62,7 +62,7 @@ const Contact = () => {
               </div>
             </div>
             <div
-              className="w-full flex gap-3 p-6 rounded-xl shadow-lg shadow-red-400"
+              className="w-full flex gap-3 p-6 rounded-xl shadow-md shadow-red-400"
               data-aos="fade-up-right"
             >
               <div>
@@ -80,7 +80,7 @@ const Contact = () => {
               </div>
             </div>
             <div
-              className="w-full flex gap-3 p-6 rounded-xl shadow-lg shadow-red-500"
+              className="w-full flex gap-3 p-6 rounded-xl shadow-md shadow-red-500"
               data-aos="fade-up-right"
             >
               <div>

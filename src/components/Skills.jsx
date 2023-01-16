@@ -159,14 +159,14 @@ const Skills = () => {
       name="skills"
       className="bg-gradient-to-b to-gray-800 from-black w-full pt-2 md:pt-28 "
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white" >
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-teal-200" >
         <div >
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline" data-aos="fade-right">
-            Skills
+          <p className="text-4xl font-bold border-b-4 border-white p-2 inline" data-aos="fade-right">
+          Technical  Skills
           </p>
         </div>
         <div className="flex justify-center mt-20">
-        <p className="text-4xl font-semi-bold border-b-2 border-blue-500 p-2 inline " data-aos="fade-right">
+        <p className="text-4xl font-semi-bold border-b-2 border-blue-500 p-2 inline text-white " data-aos="fade-right">
             Frontend
           </p>
         </div>
@@ -175,7 +175,7 @@ const Skills = () => {
           {frontend.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-lg  duration-300 py-2 rounded-lg  ${style} hover:scale-110` } data-aos="fade-up" 
+              className={`shadow-md  duration-300 py-2 rounded-lg  ${style} hover:scale-110` } data-aos="fade-up" 
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
@@ -185,7 +185,7 @@ const Skills = () => {
 
      {/* backend */}
         <div className="flex justify-center mt-10">
-        <p className="text-4xl font-semi-bold border-b-2 border-blue-500 p-2 inline " data-aos="fade-right">
+        <p className="text-4xl font-semi-bold border-b-2 border-blue-500 p-2 inline  text-white " data-aos="fade-right">
             Backend
           </p>
         </div>
@@ -194,7 +194,7 @@ const Skills = () => {
           {backend.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-lg  duration-300 py-2 rounded-lg  ${style} hover:scale-110` } data-aos="fade-up" 
+              className={`shadow-md  duration-300 py-2 rounded-lg  ${style} hover:scale-110` } data-aos="fade-up" 
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
@@ -204,7 +204,7 @@ const Skills = () => {
 
         {/* otherTools */}
         <div className="flex justify-center mt-10">
-        <p className="text-4xl font-semi-bold border-b-2 border-blue-500 p-2 inline " data-aos="fade-right">
+        <p className="text-4xl font-semi-bold border-b-2 border-blue-500 p-2 inline  text-white " data-aos="fade-right">
             Other Tools
           </p>
         </div>
@@ -213,7 +213,7 @@ const Skills = () => {
           {tools.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-lg  duration-300 py-2 rounded-lg  ${style} hover:scale-110` } data-aos="fade-up" 
+              className={`shadow-md  duration-300 py-2 rounded-lg  ${style} hover:scale-110` } data-aos="fade-up" 
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>

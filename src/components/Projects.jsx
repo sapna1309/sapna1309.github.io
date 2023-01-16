@@ -35,6 +35,7 @@ import {
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import ProjectImageSlider from "./Slider";
 //import ProjectImageSlider from "./Slider";
 
 const Projects = () => {
@@ -149,15 +150,15 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b to-black   from-gray-800 w-full text-white pt-32 pb-32"
+      className="bg-gradient-to-b to-black   from-gray-800 w-full text-teal-200 pt-32 pb-32"
     >
       <div className="max-w-screen-lg mx-auto p-2 " data-aos="fade-right">
-        <p className="text-4xl  uppercase font-bold inline border-b-4 border-gray-500">
+        <p className="text-4xl  uppercase font-bold inline border-b-4 border-white">
           Projects
         </p>
       </div>
 
-      <div className="max-w-screen-lg  mx-auto px-2 shadow-xl shadow-gray-600 mt-0 md:mt-10  ">
+      <div className="max-w-screen-lg  mx-auto px-2 shadow-md shadow-teal-200 mt-0 md:mt-10  ">
         <div className="max-w-screen-lg mx-auto grid lg:grid-cols-2  ">
           <div className="px-10 py-12 max-w-md mx-auto sm:max-w-xl lg:px-10 lg:py-6 lg:max-w-full">
             <div className="block lg:hidden" data-aos="fade-up">
@@ -170,7 +171,7 @@ const Projects = () => {
               Unsplash Clone
             </h1>
             <p
-              className="w-full  mt-2 text-gray-400 sm:mt-2 sm:text-xl"
+              className="w-full  mt-2 text-gray-300 sm:mt-2 sm:text-xl"
               data-aos="fade-right"
             >
               Unsplash is a website dedicated to proprietary stock photography.
@@ -240,7 +241,7 @@ const Projects = () => {
       </div>
 
       {/* skin store project */}
-      <div className="max-w-screen-lg  mx-auto px-2 shadow-xl shadow-gray-600 mt-10  ">
+      <div className="max-w-screen-lg  mx-auto px-2 shadow-md shadow-teal-200 mt-10  ">
         <div className="max-w-screen-lg mx-auto grid lg:grid-cols-2  ">
           <div className="px-10 py-12 max-w-md mx-auto sm:max-w-xl lg:px-10 lg:py-6 lg:max-w-full">
             <div className="block lg:hidden">
@@ -257,7 +258,7 @@ const Projects = () => {
               TvachaStore (SkinStore-Clone)
             </h1>
             <p
-              className="w-full  mt-2 text-gray-400 sm:mt-2 sm:text-xl"
+              className="w-full  mt-2 text-gray-300 sm:mt-2 sm:text-xl"
               data-aos="fade-right"
             >
               SkinStore.com is an e-commerce site for premium beauty products
@@ -337,7 +338,7 @@ const Projects = () => {
       </div>
 
       {/* Booking  */}
-      <div className="max-w-screen-lg  mx-auto px-2 shadow-xl shadow-gray-600 mt-10  ">
+      <div className="max-w-screen-lg  mx-auto px-2 shadow-md shadow-teal-200 mt-10  ">
         <div className="max-w-screen-lg mx-auto grid lg:grid-cols-2  ">
           <div className="px-10 py-12 max-w-md mx-auto sm:max-w-xl lg:px-10 lg:py-6 lg:max-w-full">
             <div className="block lg:hidden">
@@ -346,15 +347,18 @@ const Projects = () => {
                 imgStyle={style_md}
                 data-aos="fade-up"
               />
+              {/* <ProjectImageSlider data={BookIt}
+                imgStyle={style_md}
+                data-aos="fade-up" /> */}
             </div>
             <h1
-              className="mt-6 text-xl text-blue-500 font-bold sm:mt-8  sm:text-3xl lg:text-2xl"
+              className="mt-6 text-xl text-blue-500 font-bold sm:mt-8 sm:text-3xl lg:text-2xl"
               data-aos="fade-right"
             >
               BookIt (Booking- Clone)
             </h1>
             <p
-              className="w-full  mt-2 text-gray-400 sm:mt-2 sm:text-xl"
+              className="w-full  mt-2 text-gray-300 sm:mt-2 sm:text-xl"
               data-aos="fade-right"
             >
               Booking.com is a Dutch online travel agency for lodging

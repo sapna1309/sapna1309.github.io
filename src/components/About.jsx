@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className=" w-full h-fit  bg-gradient-to-b from-gray-800 to-black text-white pt-10"
+      className=" w-full h-fit  bg-gradient-to-b from-gray-800 to-black text-teal-200 pt-10"
     >
       
           <div className="hidden md:block ">
@@ -22,7 +22,7 @@ const About = () => {
             </div>
           </div>
       <div className="max-w-screen-lg mx-auto p-2">
-          <p className="text-4xl  capitalize font-bold inline border-b-4 border-gray-500" data-aos="fade-up" >
+          <p className="text-4xl  capitalize font-bold inline border-b-4 border-white" data-aos="fade-up" >
             About me
           </p>
         </div>
@@ -36,18 +36,17 @@ const About = () => {
     <div className='px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:px-2 lg:py-4 lg:max-w-screen-lg '>
       <img className="rounded-lg shadow-xl sm:mt-3 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden" src={benchwork} alt="logo"  data-aos="fade-up" />
         <div>
-      <p className="mt-6 md:mt-2 text-2xl  text-gray-400 " data-aos="fade-down">
+      <p className="mt-6 md:mt-2 text-xl  text-gray-300 " data-aos="fade-down">
       I am a Result-Oriented Full Stack Web Developer
                 from Masai School with appropriate skills who's passionate about developing user-friendly web applications using MERN Stack.
        
         </p>
 
-        <p className="mt-6 text-2xl  text-gray-400 " data-aos="fade-left">
+      <p className="mt-6 text-xl  text-gray-300 " data-aos="fade-left">
         I enjoy developing websites and a keen interest in solving problems and coming up with effective solutions.
-        </p>
-      
-        <p className="mt-6 text-2xl  text-gray-400 " data-aos="fade-up">
-        Fast Forwarding to today, I built a number of web applications
+        </p> 
+        <p className="mt-6 text-xl  text-gray-300 " data-aos="fade-up">
+                I built a number of web applications
                 and 3 major projects. Learned a great deal about teamwork,
                 leadership, and communication. After months of rigorous
                 training, here I am looking for an opportunity as a Full Stack

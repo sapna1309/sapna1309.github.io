@@ -14,7 +14,7 @@ const ImageSlider = ({data,imgStyle }) => {
   useEffect(()=>{
      style();
   },[image])
-console.log(mystyle);
+//console.log(mystyle);
   return (
     <div className='max-w-screen-lg h-full flex justify-center relative'>
         <div className='flex items-center rounded-full hover:opacity-60 justify-center w-8 h-8  z-10 bg-black opacity-40 absolute top-[50%] hover:{mystyle} left-[2%]' >

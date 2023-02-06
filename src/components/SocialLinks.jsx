@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-//import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { ImDownload } from "react-icons/im";
 
 const SocialLinks = () => {
   const links = [
@@ -24,20 +23,11 @@ const SocialLinks = () => {
       ),
       href: "https://github.com/sapna1309",
     },
-    // {
-    //   id: 3,
-    //   child: (
-    //     <>
-    //       Mail <HiOutlineMail size={30} />
-    //     </>
-    //   ),
-    //   href: "https://mail.google.com/",
-    // },
     {
       id: 3,
       child: (
         <>
-         Download Resume <BsFillPersonLinesFill size={30} />
+         Resume <ImDownload size={30} />
         </>
       ),
       href: "/Sapna-Sharma-Resume.pdf",
@@ -64,6 +54,9 @@ const SocialLinks = () => {
               download={download}
               target="_blank"
               rel="noreferrer"
+              onClick={()=>{
+                window.open("https://drive.google.com/file/d/1-IMw6yhKYIEEIGBw-iVlnAtmCRMV9WBs/view?usp=sharing")
+              }}
             >
               {child}
             </a>

@@ -1,4 +1,5 @@
 import React from "react";
+import GitHubCalendar from "react-github-calendar";
 
 const GithubData = () => {
   return (
@@ -6,7 +7,7 @@ const GithubData = () => {
     className="bg-gradient-to-b to-gray-800 from-black w-full pt-2 md:pt-28"
   > 
   <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-teal-200" >
-  <div >
+  <div className="flex justify-center" data-aos="fade-right" >
           <p className="text-4xl font-bold border-b-4 border-white p-2 inline" data-aos="fade-right">
           GitHub
    </p>
@@ -17,9 +18,15 @@ const GithubData = () => {
             GitHub Calendar
           </p>
           </div>  
-  <div className="flex justify-center mt-10 ">
-      <img className="w-full"
-        src="https://ghchart.rshah.org/sapna1309"  alt="sapna-sapna-calendar" data-aos="fade-right" />
+  <div className="flex justify-center mt-10" data-aos="fade-right">
+        <GitHubCalendar
+              style={{
+                border: "1px solid grey",
+                padding: "15px",
+                color: "#99F6E4",
+              }}
+             
+              username="sapna1309"/>
   </div>
   </div> 
   <div className="flex justify-center mt-5 flex-col shadow-md shadow-green-500 p-5">

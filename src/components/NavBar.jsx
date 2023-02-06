@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 // import LogoSapna from '../assets/logoSapna.png'
-import Signature from '../assets/signature.png';
+//import Signature from '../assets/signature.png';
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);

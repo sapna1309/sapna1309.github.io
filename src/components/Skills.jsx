@@ -154,62 +154,7 @@ const Skills = () => {
       name="skills"
       className="bg-gradient-to-b to-gray-800 from-black w-full pt-2 md:pt-28 text-teal-200 "
     >
-      <div className="max-w-screen-xl mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div style={{ textAlign: "center" }} data-aos="fade-right">
-          <p
-            className="text-4xl
-           font-bold border-b-4  uppercase border-white p-2 inline"
-        //  style={{
-        //   fontKerning: 2,
-        //   fontWeight:"bold",
-        //   color:"#99F6E4",
-        //   textShadow:"2px 2px 2px black, 2px 2px 2px black",
-        //   fontSize:"48px",
-        //   textAlign:"center"}} 
-          >
-            Technical Skills
-          </p>
-        </div>
-        <div className="w-11/12 mx-auto grid grid-cols-2 mt-10 text-black  border-0 border-white sm:grid-cols-3 lg:grid-cols-5 gap-10 text-center py-8 ">
-          {frontend.map(({ id, src, title, style }) => (
-            <div
-              key={id}
-              className="hexagon"
-              data-aos="fade-up"
-            >
-              <img
-                src={src}
-                alt={title}
-                className={`mt-10 w-20 mx-auto shadow-lg ${style}`}
-              />
-              <p className="mt-4 mb-8">{title}</p>
-            </div>
-          ))}
-        </div>
-
-        {/* otherTools */}
-        <div className="flex justify-center mt-10">
-          <p
-            className="text-4xl
-           font-bold border-b-4 uppercase border-white p-2 inline"
-            data-aos="fade-right"
-          >
-            Other Tools
-          </p>
-        </div>
-        <div className="w-11/12 mx-auto grid grid-cols-2 mt-8 text-black  border-0 border-white sm:grid-cols-3 lg:grid-cols-5 gap-10 text-center py-8 ">
-          {tools.map(({ id, src, title, style }) => (
-            <div key={id} className="hexagon">
-              <img
-                src={src}
-                alt={title}
-                className={`mt-10 w-20 mx-auto shadow-lg ${style}`}
-              />
-              <p className="mt-4 mb-8">{title}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+    
     </div>
   );
 };

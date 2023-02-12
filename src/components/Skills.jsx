@@ -150,12 +150,8 @@ const Skills = () => {
   }, []);
 
   return (
-    <div
-      name="skills"
-      className="bg-gradient-to-b to-gray-800 from-black w-full pt-2 md:pt-28 text-teal-200 "
-    >
-    
-    </div>
+   <>
+   </>
   );
 };
 

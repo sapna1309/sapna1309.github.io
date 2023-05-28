@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "./static/css/main.faa9af5d.css",
-    "main.js": "./static/js/main.b755c1c0.js",
+    "main.js": "./static/js/main.fbf73a9c.js",
     "static/media/Loading.gif": "./static/media/Loading.d3b51f4045e5dc5565c9.gif",
     "static/media/homePage.png": "./static/media/homePage.e0e508dee7a141913f62.png",
     "static/media/coding.gif": "./static/media/coding.1602638b02cb1be6e2b2.gif",
+    "static/media/HeroImage.png": "./static/media/HeroImage.4831e566f8dcd0f45739.png",
     "static/media/redux.png": "./static/media/redux.1b4bb5fceb01b19da59d.png",
     "static/media/chakra.png": "./static/media/chakra.e4cb472ccaabf22affba.png",
     "static/media/sass.png": "./static/media/sass.e6f18a8921a5b9e7f776.png",
@@ -19,17 +20,16 @@
     "static/media/tailwind.png": "./static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "./static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/vscode.png": "./static/media/vscode.cff0bf15e056fcb55f6a.png",
-    "static/media/heroImage.jpg": "./static/media/heroImage.e7b221741c720a5adafd.jpg",
     "static/media/photoshop.webp": "./static/media/photoshop.ee2254a017a090995ce5.webp",
     "static/media/javascript.png": "./static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/material-ui.png": "./static/media/material-ui.fb89c9c491f8d75c5fcc.png",
     "static/media/illustratore.png": "./static/media/illustratore.88205be4baf5c712db8e.png",
     "index.html": "./index.html",
     "main.faa9af5d.css.map": "./static/css/main.faa9af5d.css.map",
-    "main.b755c1c0.js.map": "./static/js/main.b755c1c0.js.map"
+    "main.fbf73a9c.js.map": "./static/js/main.fbf73a9c.js.map"
   },
   "entrypoints": [
     "static/css/main.faa9af5d.css",
-    "static/js/main.b755c1c0.js"
+    "static/js/main.fbf73a9c.js"
   ]
 }

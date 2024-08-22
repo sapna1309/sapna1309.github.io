@@ -1,0 +1,20 @@
+.github{
+  display:flex;
+  gap:8px;
+  align-items:center;
+  background-color:#26B0AB;
+  padding:7px 15px;
+  color:white;
+  font-weight:bold;
+  font-size:20;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  letter-spacing:1px;
+  transition:all .2s ease-in-out;
+}
+
+.github:hover{
+  background-color: #2BCFBE;
+  color: #025D84;
+  transform:scale(1.1);
+}

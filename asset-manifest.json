@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.faa9af5d.css",
-    "main.js": "./static/js/main.7a7fc087.js",
+    "main.css": "./static/css/main.8d274dca.css",
+    "main.js": "./static/js/main.0e9d6665.js",
     "static/media/Loading.gif": "./static/media/Loading.d3b51f4045e5dc5565c9.gif",
     "static/media/homePage.png": "./static/media/homePage.e0e508dee7a141913f62.png",
     "static/media/coding.gif": "./static/media/coding.1602638b02cb1be6e2b2.gif",
-    "static/media/HeroImage.png": "./static/media/HeroImage.4831e566f8dcd0f45739.png",
+    "static/media/HeroImage.png": "./static/media/HeroImage.72b6045da1186542b9dd.png",
     "static/media/redux.png": "./static/media/redux.1b4bb5fceb01b19da59d.png",
     "static/media/chakra.png": "./static/media/chakra.e4cb472ccaabf22affba.png",
     "static/media/sass.png": "./static/media/sass.e6f18a8921a5b9e7f776.png",
@@ -24,11 +24,11 @@
     "static/media/material-ui.png": "./static/media/material-ui.fb89c9c491f8d75c5fcc.png",
     "static/media/illustratore.png": "./static/media/illustratore.88205be4baf5c712db8e.png",
     "index.html": "./index.html",
-    "main.faa9af5d.css.map": "./static/css/main.faa9af5d.css.map",
-    "main.7a7fc087.js.map": "./static/js/main.7a7fc087.js.map"
+    "main.8d274dca.css.map": "./static/css/main.8d274dca.css.map",
+    "main.0e9d6665.js.map": "./static/js/main.0e9d6665.js.map"
   },
   "entrypoints": [
-    "static/css/main.faa9af5d.css",
-    "static/js/main.7a7fc087.js"
+    "static/css/main.8d274dca.css",
+    "static/js/main.0e9d6665.js"
   ]
 }
